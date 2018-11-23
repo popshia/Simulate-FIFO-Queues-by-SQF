@@ -1,4 +1,4 @@
-// 10627130 ¸ê¤u¤G¥Ò ªL«a¨} & 10627131 ¸ê¤u¤G¥Ò §õ®mŞ³ // CodeBlocks 17.12
+// 10627130 è³‡å·¥äºŒç”² æ—å† è‰¯ & 10627131 è³‡å·¥äºŒç”² æå³»ç‘‹ // CodeBlocks 17.12
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -120,7 +120,7 @@ public:
 
         while ( orders.size() != 0 ) { // compare the tasks with the current queue time
             cout << "Order Count is : " << orders.size() << endl ;
-            cout << "Current Order is : " << orders.front().orderID << " " << orders.front().arrivalTime << " "  << orders.front().duration << " " << orders.front().timeout << endl ;
+            cout << "Current Order is : " << orders.front().orderID << " " << orders.front().arrivalTime << " " << orders.front().duration << " " << orders.front().timeout << endl ;
             cout << "Current Queue Time is : " << QueueTime1 << endl ;
 
             if ( orders.front().arrivalTime >= QueueTime1 ) {
